@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+ 
 }
 
 .App-logo {
@@ -35,4 +35,136 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.search{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 250%;
+  text-align: center;
+  border-radius: 50px;
+  background-image: url('http://localhost:3000/img/search.svg');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  
+}
+.searchDiv {
+  margin-left: 20%;
+  margin-right: -70%;
+  
+}
+
+
+.hero-image {
+  margin-top:2%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://localhost:3000/img/Rectangle 2.png");
+  height: 500px;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 0%;
+}
+
+
+
+.hero-text {
+  text-align:end;
+  position: absolute;
+  padding-top: 20%;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-130%,320%); */
+  color: white;
+
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.tab .nav-tabs {
+  border: none;
+}
+.tab .nav-tabs li a {
+  color: #555;
+  background: #fff;
+  font-size: 19px;
+  font-weight: 100;
+  text-transform: capitalize;
+  padding: 12px 20px 14px;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease 0.3s;
+}
+.tab .nav-tabs li.active a,
+.tab .nav-tabs li a:hover,
+.tab .nav-tabs li.active a:hover {
+  color: black;
+  background: #fff;
+  border: none;
+}
+.tab .nav-tabs li a:before,
+.tab .nav-tabs li a:after {
+  content: "";
+  
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: -80%;
+  left: 0;
+  z-index: -1;
+ 
+  transition: all 0.3s ease 0s;
+}
+.tab .nav-tabs li a:after {
+  background-color: gray;
+  top: auto;
+  bottom: -4px;
+  height: 4px;
+  clip-path: none;
+}
+.tab .nav-tabs li.active a:before,
+.tab .nav-tabs li a:hover:before {
+  top: 0;
+}
+.tab .nav-tabs li.active a:after,
+.tab .nav-tabs li a:hover:after {
+  bottom: 0;
+}
+.tab .tab-content {
+  color: #555;
+  background: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 25px;
+padding-top: 20px;
+
+  position: relative;
+}
+@media only screen and (max-width: 479px) {
+  .tab .nav-tabs {
+      margin: 0 0 10px;
+  }
+  .tab .nav-tabs li {
+      width: 100%;
+      text-align: center;
+  }
+}
+
+.fl1{
+  margin-top: 20%;
+  margin-right: 0%;
+}
+
+.fl2{
+  margin-top: 40%;
+  margin-left: 40%;
 }
